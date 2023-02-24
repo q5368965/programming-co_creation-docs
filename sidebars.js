@@ -47,6 +47,12 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "3.学习笔记",
+      items: ["notes/example"],
+      // collapsible: false,
+    },
+    {
+      type: "category",
       label: "测试区",
       items: [
         "test/intro",
