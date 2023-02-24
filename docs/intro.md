@@ -5,7 +5,11 @@ sidebar_position: 1
 ## 快速入口
 [文档库](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/intro/) | [仓库](https://github.com/coding-newbies-group/programming-co_creation-docs) | [Github Issues](https://github.com/coding-newbies-group/programming-co_creation-docs/issues) | [贡献统计表](https://docs.qq.com/sheet/DYmdOeXZCUUlIaWhS?tab=BB08J2) | [共学共创进度表](https://docs.qq.com/sheet/DYkdIT0hKbW1tWmhE?tab=BB08J2) | [项目看板](https://github.com/orgs/coding-newbies-group/projects/1) | [人才盘点表](https://docs.qq.com/sheet/DYlhBdkJwQ3lWY1hv?tab=BB08J2) | [常见问题](https://coding-newbies-group.github.io/programming-co_creation-docs/docs/files/qa)
 
+
+
 ## 协作流程
+
+<font color="E71853">学习重点在于看视频</font>
 
 ![image-20230222140000563](intro.assets/image-20230222140000563.png)
 
@@ -21,14 +25,16 @@ sidebar_position: 1
 
 
 ### 基础篇
+- 1-1.[理解编程语言](./p1/p1-1-repl.md)
+- 1-2.[值与变量](./p1/p1-2-values-variables.md)
+- 1-3.[IDE集成开发环境](./p1/p1-3-ide.md)
+
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
 我已将教材转化为Markdown格式
 :::
 
-* [第一章 理解编程语言](./pilot/p1-1-understanding-programming-languages.md)
-* [第二章 程序的基本结构（一）：值与变量](./pilot/p1-2-structure-1.md)
 * [第三章 程序的基本结构（二）：操作符与函数](./pilot/p1-3-structure-2.md)
 * [第四章 程序的基本结构（三）：逻辑判断与分支](./pilot/p1-4-structure-3.md)
 * [第五章 程序的基本结构（四）：循环](./pilot/p1-5-structure-4.md)
