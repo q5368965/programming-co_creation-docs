@@ -53,16 +53,8 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "测试区",
-      items: [
-        "test/intro",
-        {
-          type: "category",
-          label: "测试文件夹1",
-          items: ["test/test_folder1/file1"],
-          collapsible: false,
-        },
-      ],
+      label: "4.周会",
+      items: ["weekly-meeting/20230223"],
     },
     {
       type: "category",
