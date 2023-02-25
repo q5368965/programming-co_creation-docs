@@ -132,14 +132,14 @@ open .
 
 
 
-## 补充：
+## 11.补充：
 
 :::tip 提示
 
 **新手可以选项**，可以先用系统自带的terminal工具，开始编程学习。
 :::
 
-### Ⅰ. 替代 Mac 系统自带的Terminal：iTerm2
+### 11.1.替代 Mac 系统自带的Terminal：iTerm2
 
 [iTerm2](https://iterm2.com/)是一个在macOS系统的免费开源终端软件。相较于自带的Terminal，iTerm2提供了更多的特性，包括支持多tab窗口，分屏，快速搜索，自动补全命令，有丰富多样的主题可供定制使用
 
@@ -180,7 +180,7 @@ Oh My Zsh 是在macOS系统平台上，用于管理Zsh配置的框架，它提�
 ![zshrc](./p0-4-cli.assets/zshrc.png)
 ![ohmyzsh-theme-ys](./p0-4-cli.assets/ohmyzsh-theme-ys.png)
 
-### Ⅱ. 如何安装 PowerShell for Windows
+### 11.2.如何安装 PowerShell for Windows
 
 :::info 信息
 [视频：_如何在 Windows 设备安装 PowerShell ?_](https://www.bilibili.com/video/BV1gT411q7Tx/?vd_source=08ffb5056ed58860f28c643cbea98c2d)
