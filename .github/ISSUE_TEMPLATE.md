@@ -1,3 +1,4 @@
+**Github Issues的标题需要以教程文章标题作为开头，否则会不予回答，请悉知**
 > 系统：Windows11
 > 编译器：VSCode
 > Python版本：3.11.2
