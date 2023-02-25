@@ -121,6 +121,16 @@ open .
 
 
 
+## 10.错误操作案例解析
+
+:::info 信息
+[视频：如何通过命令行进入一个目录？](https://www.bilibili.com/video/BV18v4y1e7QD/?vd_source=08ffb5056ed58860f28c643cbea98c2d)
+:::
+
+**关联 issue**：[ 0-5.通过Github共创：执行code .报错 #23 ](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/23
+)
+
+
 
 ## 补充：
 
@@ -128,8 +138,6 @@ open .
 
 **新手可以选项**，可以先用系统自带的terminal工具，开始编程学习。
 :::
-
-
 
 #### 1.2.2.替代系统自带的Terminal：iTerm2
 
