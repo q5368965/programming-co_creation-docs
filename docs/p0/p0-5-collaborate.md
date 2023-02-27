@@ -253,6 +253,10 @@ git config --global user.name "Your Name"
 
 3. 又或者，可以右键点击文件，选择“Open in External App”，我安装了Typora，会用Typora打开Markdown文件进行编辑：
 
+   > 注意，这里大家的VSCode会没有“Open in External App”这个选项，需要在VSCode的Extentions里面安装“Open in External App”这个插件。
+   >
+   > ![image-20230227220449127](./p0-5-collaborate.assets/image-20230227220449127.png)
+
    ![image-20230223103317649](./p0-5-collaborate.assets/image-20230223103317649.png)
 
    ![image-20230223103413544](./p0-5-collaborate.assets/image-20230223103413544.png)
