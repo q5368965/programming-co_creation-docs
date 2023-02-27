@@ -68,4 +68,13 @@ title: 3.IDE集成开发环境
 
 这一篇，我们留个作业，把前面已经涉及过的Python代码，原来在PowerShell中，通过Python解释器直接运行的代码，在VSCode中再试一次。
 
+``` python
+42
+3.14
+'a'
+'abracadabra'
+True
+False
+```
+
 请将结果，VSCode结果截图回复到该Github Issues中：[作业：1-3-IDE集成开发环境 · Issue #27](https://github.com/coding-newbies-group/programming-co_creation-docs/issues/27)
