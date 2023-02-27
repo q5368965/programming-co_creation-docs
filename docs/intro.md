@@ -27,8 +27,8 @@ sidebar_position: 1
 ### 基础篇
 
 - 1-1.[理解编程语言](./p1/p1-1-repl.md) | [视频](https://www.bilibili.com/video/BV1xD4y137Ep/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 1-2.[值与变量](./p1/p1-2-values-variables.md)
-- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md)
+- 1-2.[值与变量](./p1/p1-2-values-variables.md) | [视频](https://www.bilibili.com/video/BV14M411j7d4/?vd_source=4a888db8814702b2062fcaf2575be745)
+- 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md) | [视频](https://www.bilibili.com/video/BV1YM411j7FJ/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 1-4.[操作符](./p1/p1-4-operators.md)
 - 1-5.[函数](./p1/p1-5-functions.md)
 - 1-6.[逻辑判断与分支](./p1/p1-6-if.md)
