@@ -22,20 +22,21 @@ sidebar_position: 1
 - 0-3.[Markdown 超简教程](./p0/p0-3-markdown.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1Ho4y1v79V/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 0-4.[使用命令行](./p0/p0-4-cli.md) | [视频](https://www.bilibili.com/video/BV1Jo4y1Y7SC/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 0-5.[通过 Github 共创](./p0/p0-5-collaborate.md)（新手非必须） | [视频](https://www.bilibili.com/video/BV1S54y1w7XN/?vd_source=4a888db8814702b2062fcaf2575be745)
-- 0-6.[第一段 Python 代码](./p0/p0-6-python.md)
+- 0-6.[第一段 Python 代码](./p0/p0-6-python.md) | [视频](https://www.bilibili.com/video/BV18s4y1j7KQ/?vd_source=4a888db8814702b2062fcaf2575be745)
 
 ### 基础篇
 
-- 1-1.[理解编程语言](./p1/p1-1-repl.md)
+- 1-1.[理解编程语言](./p1/p1-1-repl.md) | [视频](https://www.bilibili.com/video/BV1xD4y137Ep/?vd_source=4a888db8814702b2062fcaf2575be745)
 - 1-2.[值与变量](./p1/p1-2-values-variables.md)
 - 1-3.[IDE 集成开发环境](./p1/p1-3-ide.md)
+- 1-4.[操作符](./p1/p1-4-operators.md)
+- 1-5.[函数](./p1/p1-5-functions.md)
 
 :::tip 提示
 下面的内容原项目仓库为：https://github.com/neolee/pilot
 我已将教材转化为 Markdown 格式
 :::
 
-- [第三章 程序的基本结构（二）：操作符与函数](./pilot/p1-3-structure-2.md)
 - [第四章 程序的基本结构（三）：逻辑判断与分支](https://github.com/coding-newbies-group/pilot/blob/master/p1-4-structure-3.ipynb)
 - [第五章 程序的基本结构（四）：循环](https://github.com/coding-newbies-group/pilot/blob/master/p1-5-structure-4.ipynb)
 - [第六章 程序的基本结构（五）：异常处理](https://github.com/coding-newbies-group/pilot/blob/master/p1-6-structure-5.ipynb)
