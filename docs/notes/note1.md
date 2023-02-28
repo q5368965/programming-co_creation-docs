@@ -99,7 +99,7 @@ github网址：https://github.com/
 
 ### 第4步：在红框处为该远程仓库命名，如“learn-git”
 
-![](note1.assets/14.png)
+![](note1.assets/13.png)
 
 ### 第5步：点“Create repository” 创建仓库
 
