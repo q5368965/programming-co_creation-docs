@@ -195,7 +195,13 @@ git config --global user.name "Your Name"
 
 > Github 官方文档：[connecting-to-github-with-ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-## 3.将仓库Fork到自己的GitHub账户
+## 3.流程图
+
+遇到问题，就回来看看整体过程的流程图，帮助捋顺整体逻辑。
+
+![a106e3bc-f0c3-4a2b-955f-9185efe82154](./p0-5-collaborate.assets/a106e3bc-f0c3-4a2b-955f-9185efe82154.png)
+
+## 4.将仓库Fork到自己的GitHub账户
 
 1. 点击“programming-co_creation-docs”Github仓库页面中的”Fork“按钮：
 
@@ -213,7 +219,7 @@ git config --global user.name "Your Name"
 
 
 
-## 4.从自己的Github克隆知识库到本地
+## 5.从自己的Github克隆知识库到本地
 
 1. 点击自己Github账号下该仓库页面的”Code“——”SSH”，然后复制这个SSH地址，强调一下，地址是以git@开头，不是以Https开头的：
 
@@ -233,7 +239,7 @@ git config --global user.name "Your Name"
 
    
 
-## 5.在本地修改内容
+## 6.在本地修改内容
 
 文档库中显示的文档都在`programming-co_creation-docs`内的`docs`文件夹内，之后就可以编辑这些文件夹内的Markdown格式的文件，参与共创。
 
@@ -261,7 +267,7 @@ git config --global user.name "Your Name"
 
    ![image-20230223103413544](./p0-5-collaborate.assets/image-20230223103413544.png)
 
-## 6.将本地内容提交到自己的Github仓库
+## 7.将本地内容提交到自己的Github仓库
 
 当我们完成内容的修改后，就需要把自己本地的内容，提交到自己的Github仓库
 
@@ -300,7 +306,7 @@ git config --global user.name "Your Name"
 
 
 
-## 7.将自己的修改提交到共学共创仓库（Pull Request）
+## 8.将自己的修改提交到共学共创仓库（Pull Request）
 
 下一步，就是要将自己的仓库，提交给共学共创仓库，我们把这个过程叫“Pull Request”，简称PR
 

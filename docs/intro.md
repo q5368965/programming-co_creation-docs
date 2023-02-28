@@ -40,7 +40,6 @@ sidebar_position: 1
 我已将教材转化为 Markdown 格式
 :::
 
-- [第四章 程序的基本结构（三）：逻辑判断与分支](./pilot/p1-4-structure-3.md)
 - [第五章 程序的基本结构（四）：循环](./pilot/p1-5-structure-4.md)
 - [第六章 程序的基本结构（五）：异常处理](https://github.com/coding-newbies-group/pilot/blob/master/p1-6-structure-5.ipynb)
 - [第七章 理解对象与类：起源篇](https://github.com/coding-newbies-group/pilot/blob/master/p1-7-oo-1.ipynb)
