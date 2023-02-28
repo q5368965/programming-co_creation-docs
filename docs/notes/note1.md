@@ -11,7 +11,7 @@ title: 学习笔记1：git的基本用法
 
 ### 第1步：配置自己的git
 
-![1](C:/Users/Andy/programming-co_creation-docs/docs/notes/note1/1-1677570842132-62-1677570843473-64.png)!](C:/Users/Andy/programming-co_creation-docs/docs/notes/note1.assets/1.png)
+![1](note1.assets/1.png)
 
 PS C:\Users\Andy> git config --global [user.name](http://user.name/) "XXX"  （说明：引号里面填自己的github用户名）
 
