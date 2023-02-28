@@ -5,43 +5,43 @@ title: 学习笔记1：git的基本用法
 
 ## 一、把本地仓库（文件夹）放进git管辖
 
-说明1：本教程里“仓库”和“文件夹”是同义词，建一个“仓库”等同于建一个“文件夹”，程序员们在使用github时，相对更习惯用“仓库”这个名称。
-
-说明2：教程中的所有命令都用“冒号”进行包裹，复制粘贴进命令行时，请去掉冒号，否则会报错。
+本教程里“仓库”和“文件夹”是同义词，建一个“仓库”等同于建一个“文件夹”，程序员们在使用github时，相对更习惯用“仓库”这个名称。
 
 ### 第1步：配置自己的git
 
 ![1](note1.assets/1.png)
 
-PS C:\Users\Andy> git config --global [user.name](http://user.name/) "XXX"  （说明：引号里面填自己的github用户名）
+```powershell
+git config --global user.name "XXX"  #说明：引号里面填自己的github用户名
+git config --global user.email "XXX"   #说明：引号里面填自己注册github时用的邮箱
+git config --core.editor "code -w"   #说明：把Visual Studio Code设置为默认编辑器。Visual Studio Code后面简称为“VS Code”
+```
 
-PS C:\Users\Andy> git config --global user.email "XXX"  （说明：引号里面填自己注册github时用的邮箱）
 
-PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Studio Code设置为默认编辑器。Visual Studio Code后面简称为“VS Code”）
 
 ### 第2步：在本地创建一个文件夹
 
-使用命令：" mkdir learn-git "，创建一个名为“learn-git”的文件夹
+使用命令：`mkdir learn-git`，创建一个名为“learn-git”的文件夹
 
 ![](note1.assets/2.png)
 
 ### 第3步：打开learn-git文件夹
 
-使用命令：" cd learn-git "，打开“learn-git”文件夹
+使用命令：`cd learn-git `，打开“learn-git”文件夹
 
 ![](note1.assets/3.png)
 
 ### 第4步：初始化learn-git文件夹
 
-使用命令：“ git init ”, 初始化learn-git文件夹
+使用命令：`git init`, 初始化learn-git文件夹
 
 ![](note1.assets/4.png)
 
 ### 第5步：查看learn-git文件夹
 
-使用命令：“ ls ”，查看learn-git文件夹下面的内容，由于是刚创建，所以内容为空。
+使用命令：`ls`，查看learn-git文件夹下面的内容，由于是刚创建，所以内容为空。
 
-说明：使用　“git init＂命令初始化“learn-git”文件夹后，会生成一个后缀为.git的隐藏文件夹，使用一个特殊的命令：＂ls -force＂，可以看到这个被隐藏的文件夹
+说明：使用　`git init`命令初始化“learn-git”文件夹后，会生成一个后缀为.git的隐藏文件夹，使用一个特殊的命令：`ls -force`，可以看到这个被隐藏的文件夹
 
 ![](note1.assets/5.png)
 
@@ -53,15 +53,15 @@ PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Stud
 
 ### 第7步：创建一个README.md的文件
 
-使用命令＂code README.md＂创建一个文件，命名为“[README.md](http://README.md)”, 按回车，系统会自动启动Vs Code，在Vs Code界面下输入内容，然后保存，关闭Vs Code
+使用命令`code README.md`创建一个文件，命名为“[README.md](http://README.md)”, 按回车，系统会自动启动Vs Code，在Vs Code界面下输入内容，然后保存，关闭Vs Code
 
 ![](note1.assets/7.png)
 
 ### 第8步：把经过编辑的README.md提交到git的工作区
 
-使用命令：＂git add .＂（注意，add后面有一个英文标点状态下“.”），把刚刚我们编辑过的README.md文件提交至git工作区。
+使用命令：`git add .`（注意，add后面有一个英文标点状态下“.”），把刚刚我们编辑过的README.md文件提交至git工作区。
 
-说明：提交之后，可以再用＂git status＂命令查看git的状态，观察前后的变化
+说明：提交之后，可以再用`git status`命令查看git的状态，观察前后的变化
 
 ![](note1.assets/8-1.png)
 
@@ -69,7 +69,7 @@ PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Stud
 
 ### 第9步：把经过编辑的README.md提交到git管辖
 
-使用命令：＂git commit＂，把刚刚我们编辑过的README.md文件提交给git管辖，命令行界面会弹出关于本次提交的说明信息
+使用命令：`git commit`，把刚刚我们编辑过的README.md文件提交给git管辖，命令行界面会弹出关于本次提交的说明信息
 
 ![](note1.assets/9.png)
 
@@ -77,9 +77,9 @@ PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Stud
 
 ![](note1.assets/10.png)
 
-在命令行输入“git commit”命令后，系统会自动跳转到Vs Code界面，我们需要在第一行填写本次修改的备注信息，例如我在这里填写的是“the second edition”，然后关闭Vs Code界面。
+在命令行输入`git commit`命令后，系统会自动跳转到Vs Code界面，我们需要在第一行填写本次修改的备注信息，例如我在这里填写的是`the second edition`，然后关闭Vs Code界面。
 
-关闭Vs Code界面之后，回到命令行界面，再用＂git status＂命令查看git的状态，观察前后的变化。
+关闭Vs Code界面之后，回到命令行界面，再用`git status`命令查看git的状态，观察前后的变化。
 
 ![](note1.assets/10-1.png)
 
@@ -151,9 +151,9 @@ git push -u origin main
 
 在当前工作目录下（刚刚创建的README.md文件所在的目录），这点很重要，千万不要弄错。
 
-“git remote add origin https://github.com/AndyZhou6688/leran-git.git”这句话的意思是：让本地创建的仓库和github上创建的那个远程仓库关联起来。
+`git remote add origin https://github.com/AndyZhou6688/leran-git.git`这句话的意思是：让本地创建的仓库和github上创建的那个远程仓库关联起来。
 
-“git push -u origin main” 这句话的意思是把本地仓库（文件夹）push（推）上github远程仓库
+`git push -u origin main`这句话的意思是把本地仓库（文件夹）push（推）上github远程仓库
 
 ### 第3步：输入自己github仓库的账号和密码
 
@@ -166,4 +166,3 @@ git push -u origin main
 ![](note1.assets/15.png)
 
 如果您完成了以上全部的步骤，恭喜，您又学会了一项新技能！
-# 学习笔记
