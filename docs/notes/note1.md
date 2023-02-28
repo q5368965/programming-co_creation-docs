@@ -1,5 +1,5 @@
 ---
-title: note1：git的基本用法
+title: 学习笔记1：git的基本用法
 ---
 # git的基本用法
 
